@@ -1,0 +1,188 @@
+div#question {
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+div#allQuestionWrapper {
+    transition-property: max-height;
+    transition-duration: 1s;
+    height: auto;
+    max-height: 0;
+    overflow-Y: hidden;
+
+    &.shown {
+        max-height: 200vh;
+    }
+}
+
+div#startScreen {
+    transition-property: max-height;
+    transition-duration: 0.75s;
+    max-height: 100vh;
+    height: auto;
+    overflow: hidden;
+
+    &.hidden {
+        max-height: 0vh;
+    }
+}
+
+button#startButton {
+    transition-property: transform height;
+    transition-duration: 1s;
+    
+    &:hover {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+div#answerButtons {
+    z-index: 2;
+    transition-property: max-height;
+    transition-duration: 1s;
+    height: auto;
+    max-height: 100vh;
+
+    &.hidden {
+        max-height: 0;
+    }
+}
+
+button.answerButton {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2c2b2b;
+    width: 65%;
+    height: 75px;
+    border-radius: 20px;
+    margin: 20px auto;
+    border: 5px solid #343435;
+    display: block;
+    opacity: 0.75;
+    transition-property: opacity transform;
+    transition-duration: 0.5s;
+
+    &:hover {
+        opacity: 1.0;
+        transform: scale(1.1, 1.1);
+    }
+
+    &.stronglyAgree {
+        background-color: #7cf52b;
+    }
+
+    &.agree {
+        background-color: #a0ff52;
+    }
+
+    &.neutral {
+        background-color: #dddddd;
+    }
+
+    &.disagree {
+        background-color: #f5b52b;
+    }
+
+    &.stronglyDisagree {
+        background-color: #f55a2b;
+    }
+}
+
+p#question {
+    transition-property: max-height;
+    transition-duration: 0.75s;
+    max-height: 30vh;
+    height: auto;
+    overflow: hidden;
+
+    &.refreshing {
+        max-height: 0;
+    }
+}
+
+/* results section */
+div#endScreen {
+    transition-property: max-height;
+    transition-duration: 1s;
+    overflow: hidden;
+    max-height: 0vh;
+    height: auto;
+
+    &.shown {
+        max-height: 300vh;
+    }
+}
+
+div#politicalCompassResult {
+    $endScreenHeight: 526px;
+    $endScreenWidth: 474px;
+    background-image: url('./politicalCompassImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: $endScreenHeight;
+    width: $endScreenWidth;
+}
+
+div#compassDot {
+    opacity: 0.0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    position: absolute;
+    display: block;
+    margin: inherit;
+    border-radius: 50%;
+    background-color: red;
+    $size: 25px;
+    width: $size;
+    height: $size;
+    border: 5px solid #232324;
+
+    &.shown {
+        opacity: 1.0;
+    }
+}
+
+div#conservativeProgressiveBar {
+    height: 100px;
+    border: 5px solid #232324;
+    border-radius: 10px;
+    width: 700px;
+    background-image: linear-gradient(to left, blue, red);
+}
+
+div#conservativeProgressiveLine {
+    opacity: 0.0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    height: 100px;
+    border-radius: 5px;
+    width: 10px;
+    background-color: #232324;
+    z-index: 2;
+    position: absolute;
+    display: block;
+
+    &.shown {
+        opacity: 1.0;
+    }
+}
+
+p.consProgBar {
+    font-family: monospace;
+    font-size: 25px;
+    color: #459b7e;
+    word-wrap:normal;
+    display: block;
+}
+
+button#shareButton {
+    transition-property: opacity;
+    transition-duration: 1s;
+    opacity: 1.0;
+
+    &.hidden {
+        opacity: 0.0;
+        visibility: hidden;
+    }
+}

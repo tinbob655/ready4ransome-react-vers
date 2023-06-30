@@ -1,0 +1,1 @@
+ready4ransome.com (desktop) is now upgraded to use react.js!!!

@@ -1,0 +1,162 @@
+{
+    "questions": {
+        "leftOrRightQuestions": {
+            "q1": {
+                "question": "The government should have more control over the economy?",
+                "agree": "left",
+                "disagree": "right"
+            },
+            "q2": {
+                "question": "People should work collectively rather than individually?",
+                "agree": "left",
+                "disagree": "right"
+            },
+            "q3": {
+                "question": "All healthcare should cost money?",
+                "agree": "right",
+                "disagree": "left"
+            },
+            "q4": {
+                "question": "Taxes on the wealthier 50% of society should be higher?",
+                "agree": "left",
+                "disagree": "right"
+            },
+            "q5": {
+                "question": "We should allow more immigrants to enter our country?",
+                "agree": "left",
+                "disagree": "right"
+            },
+            "q6": {
+                "question": "Abortion should be made illegal?",
+                "agree": "right",
+                "disagree": "left"
+            },
+            "q7": {
+                "question": "Gun ownership should be made legal?",
+                "agree": "right",
+                "disagree": "left"
+            },
+            "q8": {
+                "question": "Climate change is the biggest threat to modern society?",
+                "agree": "left",
+                "disagree": "right"
+            },
+            "q9": {
+                "question": "Defence budgets should be increased?",
+                "agree": "right",
+                "disagree": "left"
+            },
+            "q10": {
+                "question": "Fracking should be made illegal?",
+                "agree": "left",
+                "disagree": "right"
+            }
+        },
+
+        "authoritarianOrLibertarianQuestions": {
+            "q1": {
+                "question": "The government should be allowed to collect as much data as they please?",
+                "agree": "authoritarian",
+                "disagree": "libertarian"
+            },
+            "q2": {
+                "question": "Media censorship should be heavily reduced?",
+                "agree": "libertarian",
+                "disagree": "authoritarian"
+            },
+            "q3": {
+                "question": "The number of cameras the government use should be increased?",
+                "agree": "authoritarian",
+                "disagree": "libertarian"
+            },
+            "q4": {
+                "question": "Law enforcement should be much stricter?",
+                "agree": "authoritarian",
+                "disagree": "libertarian"
+            },
+            "q5": {
+                "question": "People should be allowed to make their own choices as to what substances they intake?",
+                "agree": "libertarian",
+                "disagree": "authoritarian"
+            },
+            "q6": {
+                "question": "Individual rights should be protected at the expense of corporations?",
+                "agree": "libertarian",
+                "disagree": "authoritarian"
+            },
+            "q7": {
+                "question": "People should be able to buy what they want online?",
+                "agree": "libertarian",
+                "disagree": "authoritarian"
+            },
+            "q8": {
+                "question": "The government should control everyone's wages?",
+                "agree": "authoritarian",
+                "disagree": "libertarian"
+            },
+            "q9": {
+                "question": "The population demographic should be controlled by the state?",
+                "agree": "authoritarian",
+                "disagree": "libertarian"
+            },
+            "q10": {
+                "question": "People should have the right to join unions and advocate for better working conditions?",
+                "agree": "libertarian",
+                "disagree": "authoritarian"
+            }
+        },
+
+        "conservativeOrProgressiveQuestions": {
+            "q1": {
+                "question": "Gender roles are a good idea and benefit society?",
+                "agree": "conservative",
+                "disagree": "progressivist"
+            },
+            "q2": {
+                "question": "The environment must be protected at all costs?",
+                "agree": "progressivist",
+                "disagree": "conservative"
+            },
+            "q3": {
+                "question": "People of all religions should be accepted?",
+                "agree": "progressivist",
+                "disagree": "conservative"
+            },
+            "q4": {
+                "question": "The minimum age for gender transition surgery should be increased?",
+                "agree": "conservative",
+                "disagree": "progressivist"
+            },
+            "q5": {
+                "question": "Institutional racism and homophobia are still problems today and must be addressed?",
+                "agree": "progressivist",
+                "disagree": "conservative"
+            },
+            "q6": {
+                "question": "There are two genders?",
+                "agree": "conservative",
+                "disagree": "progressivist"
+            },
+            "q7": {
+                "question": "Homosexuality should be accepted in society?",
+                "agree": "progressivist",
+                "disagree": "conservative"
+            },
+            "q8": {
+                "question": "Racial equality is a vital part of society?",
+                "agree": "progressivist",
+                "disagree": "conservative"
+            },
+            "q9": {
+                "question": "The gender pay gap is as a result of reasons other than male oppression?",
+                "agree": "conservative",
+                "disagree": "progressivist"
+            },
+            "q10": {
+                "question": "Women are capable of doing anything men are capable of doing?",
+                "agree": "progressivist",
+                "disagree": "conservative"
+            }
+        }
+    }
+}
